@@ -160,3 +160,7 @@ body {
         font-size: 1.1rem;
     }
 }
+
+.cards .card:last-child {
+    justify-self: center;
+}
