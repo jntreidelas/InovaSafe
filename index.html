@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>InovaSafe – Soluções Industriais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="topbar">
+        <img src="logo.png" class="logo" alt="Logo InovaSafe">
+
+        <div class="socials">
+            <a href="https://www.instagram.com/jntxavierr/" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/jntxavierr/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/jntxavierr/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <h1 class="animate">InovaSafe</h1>
+    <p class="animate">
+        Soluções Industriais com Inovação, Segurança e Responsabilidade
+    </p>
+
+</header>
+
+
+<section class="section animate">
+    <h2>Visão Geral</h2>
+    <p>
+        A empresa é dividida em quatro setores, todos trabalhando juntos para melhorar os processos,
+        garantir a segurança dos trabalhadores e incentivar a inovação.
+    </p>
+</section>
+
+<section class="cards">
+
+    <div class="card animate">
+        <h3>⚙️ Manutenção / Processos</h3>
+        <ul>
+            <li>Evitar falhas</li>
+            <li>Aumentar a produtividade</li>
+            <li>Garantir funcionamento correto das máquinas</li>
+            <li>Organização do ambiente industrial</li>
+        </ul>
+    </div>
+
+    <div class="card animate">
+        <h3>🦺 Segurança do Trabalho</h3>
+        <ul>
+            <li>Uso de EPIs</li>
+            <li>Placas de sinalização</li>
+            <li>Normas de segurança</li>
+            <li>Prevenção de acidentes</li>
+        </ul>
+    </div>
+
+    <div class="card animate">
+        <h3>💡 Inovação</h3>
+        <ul>
+            <li>Brainstorming</li>
+            <li>Mapa da Empatia</li>
+            <li>Melhoria de processos e produtos</li>
+        </ul>
+    </div>
+
+    <div class="card animate">
+        <h3>📊 Administrativo</h3>
+        <ul>
+            <li>Planejamento</li>
+            <li>Tomada de decisões</li>
+            <li>Organização da empresa</li>
+        </ul>
+    </div>
+
+</section>
+
+<section class="section animate">
+    <h2>🌱 Responsabilidade Ambiental</h2>
+    <p>
+        A empresa demonstra preocupação com o meio ambiente através da coleta seletiva
+        e áreas verdes, reforçando a ética e a responsabilidade social.
+    </p>
+</section>
+
+<section class="conclusion animate">
+    <h2>Conclusão</h2>
+    <p>
+        Essa maquete mostra que uma empresa inovadora precisa integrar todos os setores,
+        trabalhando com segurança, organização, inovação e responsabilidade,
+        para ter bons resultados e cuidar das pessoas.
+    </p>
+</section>
+
+<script>
+const elements = document.querySelectorAll('.animate');
+
+function animateOnScroll() {
+    elements.forEach(el => {
+        const position = el.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+
+        if (position < screenHeight - 100) {
+            el.classList.add('show');
+        }
+    });
+}
+
+window.addEventListener('scroll', animateOnScroll);
+animateOnScroll();
+</script>
+
+</body>
+</html>
