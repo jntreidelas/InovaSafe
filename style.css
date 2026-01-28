@@ -122,3 +122,41 @@ body {
         height: 60px;
     }
 }
+
+/* MELHOR LEITURA NO CELULAR */
+@media (max-width: 600px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        margin: 50px auto;
+    }
+
+    .card {
+        padding: 30px;
+        font-size: 1.05rem;
+    }
+
+    .card li {
+        margin: 12px 0;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+
+    .conclusion {
+        padding: 80px 25px;
+        font-size: 1.1rem;
+    }
+}
